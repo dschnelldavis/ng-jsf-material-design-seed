@@ -8,10 +8,10 @@ To create this app yourself, make sure you have [Node](https://nodejs.org/en/), 
 ```shell
 ng new ng-jsf-material-design-seed
 cd ng-jsf-material-design-seed
-npm install @angular/material --save
-npm install @angular/cdk --save
-npm install hammerjs --save
-npm install angular2-json-schema-form --save
+npm install @angular/material
+npm install @angular/cdk
+npm install hammerjs
+npm install angular2-json-schema-form
 ```
 
 Follow the instructions to [set up Angular Material](https://material.angular.io/guide/getting-started) and add a default theme.

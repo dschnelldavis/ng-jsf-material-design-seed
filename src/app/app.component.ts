@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'the Angular JSON Schema Form Material Design Seed App';
+  title = 'Angular JSON Schema Form Material Design Seed App';
 
   exampleSchema = {
     'type': 'object',

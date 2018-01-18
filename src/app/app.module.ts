@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule, MatToolbarModule } from '@angular/material';
 
-import { JsonSchemaFormModule } from 'angular2-json-schema-form';
+import { JsonSchemaFormModule, MaterialDesignFrameworkModule } from 'angular2-json-schema-form';
 
 import { AppComponent } from './app.component';
 
@@ -11,7 +11,7 @@ import { AppComponent } from './app.component';
   declarations: [ AppComponent ],
   imports: [
     BrowserModule, BrowserAnimationsModule, MatCardModule, MatToolbarModule,
-    JsonSchemaFormModule
+    MaterialDesignFrameworkModule, JsonSchemaFormModule.forRoot(MaterialDesignFrameworkModule)
   ],
   providers: [],
   bootstrap: [ AppComponent ]
